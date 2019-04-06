@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="demo3.Patnt_SignUpController">
+    <children>
+        <Label layoutX="188.0" layoutY="26.0" prefHeight="17.0" prefWidth="242.0" text="Patient Registration form" />
+        <TextField id="f_name" fx:id="f_name" layoutX="89.0" layoutY="78.0" text="First name" />
+        <TextField id="l_name" fx:id="L_name" layoutX="300.0" layoutY="78.0" prefHeight="25.0" prefWidth="159.0" text="Last name" />
+        <TextField id="nid" fx:id="nid" layoutX="89.0" layoutY="384.0" text="Nid i.e. 1995477551477" />
+        <Button id="signUpBtn" fx:id="signup" layoutX="274.0" layoutY="470.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Sign Up" />
+        <TextField id="email" fx:id="email" layoutX="89.0" layoutY="123.0" prefHeight="25.0" prefWidth="373.0" text="Email" />
+        <PasswordField id="password" fx:id="pass1" layoutX="89.0" layoutY="168.0" text="password" />
+        <PasswordField fx:id="pass2" layoutX="321.0" layoutY="168.0" text="password" />
+      <TextField id="blood_group" fx:id="bg" layoutX="89.0" layoutY="216.0" text="Blood group" />
+      <TextField id="weight" fx:id="wt" layoutX="321.0" layoutY="216.0" text="Weight" />
+      <Label id="gender" fx:id="gdr" layoutX="89.0" layoutY="276.0" prefHeight="17.0" prefWidth="71.0" text="Gender" />
+      <TextField id="age" fx:id="age" layoutX="86.0" layoutY="325.0" text="Age" />
+      <ComboBox fx:id="gdrcmb" layoutX="160.0" layoutY="272.0" prefWidth="150.0" />
+    </children>
+</Pane>
